@@ -6,7 +6,7 @@ function Comp4() {
   return (
     <div className='box4'>
         <h2>Child 3</h2>
-        <p>Welcome {user===""? "Guest" : user}</p>
+        <p>Welcome{user===""? "Guest" : user}</p>
     </div>
   )
 }
