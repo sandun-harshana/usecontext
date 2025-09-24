@@ -9,7 +9,7 @@ function Comp1() {
     <div className='box1'>
       <UserApp.Provider value={username}>
         <h2>Parent</h2>
-        <p>Welcome {username}</p>
+        <p>Welcome{username}</p>
         <input type="text" placeholder= "Enter your username"
         onChange={(e)=>{
             setUserName(e.target.value)
