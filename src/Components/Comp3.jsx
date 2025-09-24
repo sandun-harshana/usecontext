@@ -7,7 +7,7 @@ function Comp3() {
   return (
     <div className='box3'>
         <h2>Child 2</h2>
-        <p>Welcome {user===""? "Guest" : user}</p>
+        <p>Welcome{user===""? "Guest" : user}</p>
         <Comp4 />
     </div>
   )
