@@ -5,7 +5,7 @@ function Comp2() {
   return (
     <div className='box2'>
         <h2>Child 1</h2>
-       {/* <p>Welcome {props.user}</p> */}
+        <p>Welcome {props.user}</p> 
         <Comp3 />
     </div>
   )
